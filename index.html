@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with GPT-3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+
+    <div class="chat-container">
+        <div class="chat-content" id="content">
+
+            <div class="display-content text-center">
+                <h1>ChatGPT</h1>
+                <p>Start a conversation and explore the power of AI.</p>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="userText" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+        <button id="newChatButton" class="new-chat-button">New Chat</button>
+    </div>
+    
+
+    <div id="loader" style="display: none;">Loading...</div>
+
+   <script src="./app.js"></script>
+</body>
+
+</html>
